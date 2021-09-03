@@ -1,0 +1,137 @@
+2021-08-12 10:49:16,549 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=11h54m5s553ms660µs700ns).
+2021-08-12 11:38:36,067 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-39] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-12 11:38:36,085 INFO com.zaxxer.hikari.HikariDataSource [Thread-39] HikariPool-7 - Shutdown initiated...
+2021-08-12 11:38:36,098 INFO com.zaxxer.hikari.HikariDataSource [Thread-39] HikariPool-7 - Shutdown completed.
+2021-08-12 11:38:36,485 INFO com.address.AddressBookAdvanceApplication [restartedMain] Starting AddressBookAdvanceApplication using Java 11.0.12 on EPINPUNW0207 with PID 148 (C:\Users\Sushant_Banugariya\EPAM\Projects\SpringBoot\address-book-jpa\target\classes started by Sushant_Banugariya in C:\Users\Sushant_Banugariya\EPAM\Projects\SpringBoot\address-book-jpa)
+2021-08-12 11:38:36,485 INFO com.address.AddressBookAdvanceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-12 11:38:37,509 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-12 11:38:37,593 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interfaces.
+2021-08-12 11:38:42,506 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-08-12 11:38:42,507 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2021-08-12 11:38:42,507 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-08-12 11:38:42,508 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-12 11:38:42,567 INFO org.apache.catalina.core.ContainerBase.[Tomcat-4].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-12 11:38:42,567 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6073 ms
+2021-08-12 11:38:42,716 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-12 11:38:42,726 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2021-08-12 11:38:43,309 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2021-08-12 11:38:43,310 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-08-12 11:38:43,922 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-12 11:38:43,923 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-12 11:38:44,232 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-12 11:55:26,326 INFO com.address.AddressBookAdvanceApplicationTests [main] Starting AddressBookAdvanceApplicationTests using Java 11.0.12 on EPINPUNW0207 with PID 23736 (started by Sushant_Banugariya in C:\Users\Sushant_Banugariya\EPAM\Projects\SpringBoot\address-book-jpa)
+2021-08-12 11:55:26,334 INFO com.address.AddressBookAdvanceApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-08-12 11:55:26,363 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-08-12 11:55:29,217 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-12 11:55:29,371 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 135 ms. Found 1 JPA repository interfaces.
+2021-08-12 11:55:31,660 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-12 11:55:31,987 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-12 11:55:32,766 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-12 11:55:33,645 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-08-12 11:55:34,519 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-08-12 11:55:34,600 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-08-12 11:55:36,488 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-12 11:55:36,508 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-12 11:55:38,743 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-12 11:55:43,609 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 11 endpoint(s) beneath base path '/actuator'
+2021-08-12 11:55:43,835 INFO com.address.AddressBookAdvanceApplicationTests [main] Started AddressBookAdvanceApplicationTests in 18.582 seconds (JVM running for 21.384)
+2021-08-12 11:55:44,540 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-12 11:55:44,548 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-08-12 11:55:44,586 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-08-12 11:59:40,934 INFO com.address.AddressBookAdvanceApplicationTests [main] Starting AddressBookAdvanceApplicationTests using Java 11.0.12 on EPINPUNW0207 with PID 37736 (started by Sushant_Banugariya in C:\Users\Sushant_Banugariya\EPAM\Projects\SpringBoot\address-book-jpa)
+2021-08-12 11:59:40,942 INFO com.address.AddressBookAdvanceApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-08-12 11:59:40,966 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-08-12 11:59:44,373 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-12 11:59:44,655 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 253 ms. Found 1 JPA repository interfaces.
+2021-08-12 11:59:47,965 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-12 11:59:48,269 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-12 11:59:49,055 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-12 11:59:50,564 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-08-12 11:59:51,641 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-08-12 11:59:51,762 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-08-12 11:59:54,564 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-12 11:59:54,593 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-12 11:59:56,837 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-12 12:00:01,520 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 11 endpoint(s) beneath base path '/actuator'
+2021-08-12 12:00:01,696 INFO com.address.AddressBookAdvanceApplicationTests [main] Started AddressBookAdvanceApplicationTests in 21.772 seconds (JVM running for 25.126)
+2021-08-12 12:00:02,451 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-12 12:00:02,459 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-08-12 12:00:02,514 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-08-12 12:03:02,125 INFO com.address.AddressBookAdvanceApplicationTests [main] Starting AddressBookAdvanceApplicationTests using Java 11.0.12 on EPINPUNW0207 with PID 19764 (started by Sushant_Banugariya in C:\Users\Sushant_Banugariya\EPAM\Projects\SpringBoot\address-book-jpa)
+2021-08-12 12:03:02,131 INFO com.address.AddressBookAdvanceApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-08-12 12:03:02,148 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-08-12 12:03:05,104 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-12 12:03:05,284 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 157 ms. Found 1 JPA repository interfaces.
+2021-08-12 12:03:07,268 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-12 12:03:07,610 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-12 12:03:08,286 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-12 12:03:09,473 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-08-12 12:03:10,413 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-08-12 12:03:10,507 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-08-12 12:03:13,581 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-12 12:03:13,628 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-12 12:03:16,430 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-12 12:03:22,585 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 11 endpoint(s) beneath base path '/actuator'
+2021-08-12 12:03:22,835 INFO com.address.AddressBookAdvanceApplicationTests [main] Started AddressBookAdvanceApplicationTests in 21.664 seconds (JVM running for 24.178)
+2021-08-12 12:03:23,789 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-12 12:03:23,797 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-08-12 12:03:23,829 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-08-12 12:07:31,867 INFO com.address.AddressBookAdvanceApplicationTests [main] Starting AddressBookAdvanceApplicationTests using Java 11.0.12 on EPINPUNW0207 with PID 12296 (started by Sushant_Banugariya in C:\Users\Sushant_Banugariya\EPAM\Projects\SpringBoot\address-book-jpa)
+2021-08-12 12:07:31,872 INFO com.address.AddressBookAdvanceApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-08-12 12:07:31,885 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-08-12 12:07:34,656 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-12 12:07:34,815 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 132 ms. Found 1 JPA repository interfaces.
+2021-08-12 12:07:36,700 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-12 12:07:37,004 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-12 12:07:37,777 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-12 12:07:38,964 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-08-12 12:07:39,919 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-08-12 12:07:40,011 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-08-12 12:07:43,325 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-12 12:07:43,391 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-12 12:07:46,185 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-12 12:07:52,480 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 11 endpoint(s) beneath base path '/actuator'
+2021-08-12 12:07:52,726 INFO com.address.AddressBookAdvanceApplicationTests [main] Started AddressBookAdvanceApplicationTests in 21.88 seconds (JVM running for 24.277)
+2021-08-12 12:07:53,662 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-12 12:07:53,673 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-08-12 12:07:53,704 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-08-12 12:13:44,397 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-08-12 12:13:44,419 INFO com.address.AddressBookAdvanceApplication [restartedMain] Starting AddressBookAdvanceApplication using Java 11.0.12 on EPINPUNW0207 with PID 3204 (C:\Users\Sushant_Banugariya\EPAM\Projects\SpringBoot\address-book-jpa\target\classes started by Sushant_Banugariya in C:\Users\Sushant_Banugariya\EPAM\Projects\SpringBoot\address-book-jpa)
+2021-08-12 12:13:44,421 INFO com.address.AddressBookAdvanceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-12 12:13:44,538 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-12 12:13:44,540 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-12 12:19:49,609 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-08-12 12:19:49,637 INFO com.address.AddressBookAdvanceApplication [restartedMain] Starting AddressBookAdvanceApplication using Java 11.0.12 on EPINPUNW0207 with PID 18888 (C:\Users\Sushant_Banugariya\EPAM\Projects\SpringBoot\address-book-jpa\target\classes started by Sushant_Banugariya in C:\Users\Sushant_Banugariya\EPAM\Projects\SpringBoot\address-book-jpa)
+2021-08-12 12:19:49,640 INFO com.address.AddressBookAdvanceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-12 12:19:49,754 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-12 12:19:49,754 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-12 12:19:52,039 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-12 12:19:52,180 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 115 ms. Found 1 JPA repository interfaces.
+2021-08-12 12:19:53,556 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-08-12 12:19:53,577 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2021-08-12 12:19:53,578 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-08-12 12:19:53,579 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-12 12:19:53,821 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-12 12:19:53,822 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4067 ms
+2021-08-12 12:19:54,853 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-12 12:19:55,126 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-12 12:19:55,818 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-12 12:19:56,380 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-08-12 12:19:57,324 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-08-12 12:19:57,431 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-08-12 12:20:00,605 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-12 12:20:00,627 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-12 12:20:01,532 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-12 12:20:03,314 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-08-12 12:20:03,331 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 11 endpoint(s) beneath base path '/actuator'
+2021-08-12 12:20:03,400 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2021-08-12 12:20:03,457 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2021-08-12 12:20:03,515 INFO com.address.AddressBookAdvanceApplication [restartedMain] Started AddressBookAdvanceApplication in 14.879 seconds (JVM running for 17.611)
+2021-08-12 12:20:04,630 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-12 12:20:04,630 INFO org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2021-08-12 12:20:04,634 INFO org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 4 ms
+2021-08-12 12:20:09,834 INFO com.address.rest.controller.AddressBookRestController [http-nio-8081-exec-1] Save address : AddressDto [firstName=Sushant2, lastName=Banugariya2, street=1231 main st2, city=Rajkot2, state=GJ, zip=382482]
+2021-08-12 15:00:44,646 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(165)-127.0.0.1] Application shutdown requested.
+2021-08-12 15:00:44,800 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(165)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-12 15:00:44,815 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(165)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-08-12 15:00:44,826 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(165)-127.0.0.1] HikariPool-1 - Shutdown completed.

@@ -1,0 +1,5 @@
+# Configure datasource URL for your custom database
+#spring.datasource:
+#  url:
+#  username:
+#  password:
